@@ -357,7 +357,8 @@ public abstract partial class SharedAbsorbentSystem : EntitySystem
         var localPos = Vector2.Transform(targetPos, _transform.GetInvWorldMatrix(userXform));
         localPos = userXform.LocalRotation.RotateVec(localPos);
 
-        _melee.DoLunge(user, absorbEnt, Angle.Zero, localPos, null, Angle.Zero, false);
+        _melee.DoLunge(user, absorbEnt, Angle.Zero, localPos, null,
+            Angle.Zero, false); // Trauma
 
         return true;
     }

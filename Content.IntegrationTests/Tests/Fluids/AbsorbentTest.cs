@@ -42,6 +42,7 @@ public sealed class AbsorbentTest : GameTest
   id: {AbsorbentDummyId}
   components:
   - type: Absorbent
+    useAbsorberSolution: true
   - type: SolutionContainerManager
     solutions:
       absorbed:
