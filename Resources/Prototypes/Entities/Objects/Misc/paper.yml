@@ -93,10 +93,10 @@
       Paper: 25
 
 - type: entity
-  name: paper
   parent: BasePaper
   id: Paper
-  description: 'A piece of white paper.'
+  name: paper
+  description: A piece of white paper.
   components:
   # <Trauma>
   - type: ActivatableUIRequiresVision # can't read if you're blind
@@ -124,6 +124,7 @@
       enum.PaperUiKey.Key:
         type: PaperBoundUserInterface
   - type: FaxableObject
+  - type: PaperVisualizer
   - type: PaperVisuals
   - type: StationAiWhitelist
 
