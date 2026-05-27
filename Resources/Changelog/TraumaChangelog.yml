@@ -9183,3 +9183,12 @@ Entries:
   id: 1045
   time: '2026-05-27T20:04:44.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2841
+- author: Armok
+  changes:
+  - type: Tweak
+    message: made more antags roll more
+  - type: Tweak
+    message: make vision cones loved by everyone
+  id: 1046
+  time: '2026-05-27T20:30:31.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2842
