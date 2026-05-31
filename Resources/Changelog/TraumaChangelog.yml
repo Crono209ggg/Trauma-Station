@@ -9335,3 +9335,22 @@ Entries:
   id: 1061
   time: '2026-05-31T04:54:27.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2875
+- author: MayasMischief
+  changes:
+  - type: Add
+    message: Revs can now create a subfloor medical fabricator!
+  - type: Add
+    message: Added the Proletariat, an LMG for revs in .22 short!
+  - type: Add
+    message: Added the Maul, a powerful anti-armor tool for revs.
+  - type: Add
+    message: Added the Kunai, a shovel for revs. Yes, shovel. Kunai are shovels.
+  - type: Tweak
+    message: Forged Knife holds 5u of chems instead of 3u.
+  - type: Tweak
+    message: Forged Sword fits in duffelbags. (1x8)
+  - type: Tweak
+    message: Forged Pitchfork fits in the revs backpacks. (1x9)
+  id: 1062
+  time: '2026-05-31T04:55:16.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2746
