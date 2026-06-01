@@ -9437,3 +9437,10 @@ Entries:
   id: 1070
   time: '2026-06-01T01:57:41.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2921
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Surplus bundles can no longer be on sale...
+  id: 1071
+  time: '2026-06-01T07:40:08.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2944
