@@ -9589,3 +9589,10 @@ Entries:
   id: 1088
   time: '2026-06-02T16:13:10.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2983
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed demons being able to build anything.
+  id: 1089
+  time: '2026-06-02T23:02:50.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3011
