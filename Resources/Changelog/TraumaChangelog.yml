@@ -9632,3 +9632,26 @@ Entries:
   id: 1093
   time: '2026-06-03T07:11:15.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3006
+- author: Aviu
+  changes:
+  - type: Fix
+    message: >-
+      Fix morph/chameleon projector disguise, heretic shadow form and similar
+      things not hiding your sprite.
+  - type: Fix
+    message: Fix segmented entity tails not being hidden by viewcones.
+  - type: Fix
+    message: >-
+      Fix lock path losing free side knowledge draft upon buying any side
+      knowledge from its category.
+  - type: Fix
+    message: Fix arm hammer not knocking down on left click.
+  - type: Fix
+    message: Fix flesh stalker shapeshift removing ghoul indicators.
+  - type: Fix
+    message: Fix plasmaman immortality.
+  - type: Tweak
+    message: Shattered risen gets noslip.
+  id: 1094
+  time: '2026-06-03T08:19:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3017
