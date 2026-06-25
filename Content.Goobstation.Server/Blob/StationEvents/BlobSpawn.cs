@@ -2,6 +2,7 @@
 
 using System.Linq;
 using Content.Goobstation.Common.Blob;
+using Content.Server.Abilities.Felinid;
 using Content.Server.Ghost.Roles.Events;
 using Content.Server.StationEvents.Components;
 using Content.Server.StationEvents.Events;
@@ -74,5 +75,6 @@ public sealed partial class BlobSpawnRule : StationEventSystem<BlobSpawnRuleComp
 
         // Blob doesn't spawn when blob carrier was eaten.
         RemComp<EdibleComponent>(carrier);
+        RemComp<FelinidFoodComponent>(carrier);
     }
 }

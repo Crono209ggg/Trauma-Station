@@ -47,6 +47,9 @@ namespace Content.Shared.Humanoid
                 case SpeciesNaming.FirstDashLast: // Goobstation
                     return Loc.GetString("namepreset-firstdashlast",
                         ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
+                case SpeciesNaming.LastFirst: // DeltaV: Rodentia name scheme
+                    return Loc.GetString("namepreset-lastfirst",
+                        ("last", GetLastName(speciesProto)), ("first", GetFirstName(speciesProto, gender)));
                 case SpeciesNaming.FirstRoman: // EE Plasmeme Change
                     return Loc.GetString("namepreset-firstlast",
                         ("first", GetFirstName(speciesProto, gender)), ("last", _romanNaming.GenerateRomanNumeral()));
@@ -78,4 +81,4 @@ namespace Content.Shared.Humanoid
             return _random.Pick(_prototypeManager.Index(speciesProto.LastNames));
         }
     }
-}
+}

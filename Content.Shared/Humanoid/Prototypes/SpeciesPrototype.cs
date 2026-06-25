@@ -112,6 +112,8 @@ public enum SpeciesNaming : byte
     FirstLast,
     FirstDashFirst,
     TheFirstofLast,
+    LastFirst,
+    LastNoFirst,
     FirstDashLast, // Goobstation
     FirstRoman // EE Plasmeme Change
 }
