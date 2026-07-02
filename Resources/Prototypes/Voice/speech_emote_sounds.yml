@@ -524,6 +524,8 @@
       collection: VulpkaninWhines
     Howl:
       collection: VulpkaninHowls
+    Awoo:
+      collection: VulpkaninHowls
     Weh:
       collection: Weh
     Hew:
@@ -566,6 +568,8 @@
     Crying:
       collection: VulpkaninWhines
     Howl:
+      collection: VulpkaninHowls
+    Awoo:
       collection: VulpkaninHowls
     Weh:
       collection: Weh
